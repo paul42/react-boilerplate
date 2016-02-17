@@ -94,6 +94,7 @@
     "serve": "NODE_ENV=production node webpack/server.prod.js",
     "pagespeed": "./webpack/pagespeed",
     "setup": "NODE_ENV=initialisation ./webpack/init",
+    "setup": "NODE_ENV=initialisation ./webpack/contribute",
     "generate": "node ./node_modules/plop/plop.js",
     "prebuild": "npm run test",
     "pretest": "npm run lint",
